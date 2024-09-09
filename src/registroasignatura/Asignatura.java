@@ -96,7 +96,7 @@ public class Asignatura {
 
     
     public double promedio(){
-        return  (nota1 / 0.3) + (nota2 / 0.4) + (nota3 + 0.3);
+        return  (nota1 * 0.3) + (nota2 * 0.4) + (nota3 * 0.3);
     }
 
     public String esAprobado(){

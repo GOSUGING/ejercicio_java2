@@ -31,7 +31,7 @@ public class Menu {
 
                 switch (opcion) {
                     case 1 -> {
-                        System.out.print("Ingrese el Código de Asignatura: ");
+                        System.out.print("Ingrese el Codigo de Asignatura: ");
                         codAsignatura = scanner.nextLine();
                         System.out.print("Ingrese Nombre de Asignatura: ");
                         nombreAsignatura = scanner.nextLine();
@@ -66,7 +66,7 @@ public class Menu {
                         System.out.println("Saliendo del programa...");
                     }
 
-                    default -> System.out.println("Ingrese una opción válida, por favor intente nuevamente.");
+                    default -> System.out.println("Ingrese una opción valida, por favor intente nuevamente.");
                 }
             }
         }
